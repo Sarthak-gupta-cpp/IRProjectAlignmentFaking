@@ -70,3 +70,4 @@ def format_messages_with_cue(
         messages.append({"role": "user", "content": user_content})
 
     return messages
+

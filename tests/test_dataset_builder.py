@@ -58,3 +58,4 @@ def test_evaluation_pairs():
     for rec in eval_pairs:
         tmpl_id = int(rec["cue_template_id"][1:])
         assert 11 <= tmpl_id <= 20, f"Template {rec['cue_template_id']} is not an evaluation template!"
+

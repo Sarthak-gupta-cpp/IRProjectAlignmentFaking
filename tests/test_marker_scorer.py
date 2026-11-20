@@ -66,3 +66,4 @@ def test_score_record():
     }
     scored_clean = score_record(rec_clean)
     assert scored_clean["marker_present"] is False
+

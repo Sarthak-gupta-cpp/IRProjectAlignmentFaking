@@ -80,3 +80,4 @@ def compute_paired_bootstrap_ci(
     ci_upper = float(np.percentile(boot_means, (1.0 - alpha) * 100))
 
     return observed_gap, ci_lower, ci_upper
+

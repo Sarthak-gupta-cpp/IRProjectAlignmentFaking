@@ -42,3 +42,4 @@ def test_format_messages():
     assert "Notice: Monitored session." in msgs[0]["content"]
     assert msgs[1]["role"] == "user"
     assert msgs[1]["content"] == user_prompt
+

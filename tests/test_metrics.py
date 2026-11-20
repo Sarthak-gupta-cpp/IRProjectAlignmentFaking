@@ -46,3 +46,4 @@ def test_bootstrap_ci():
     assert pytest.approx(obs, 0.01) == 0.80
     assert 0.70 <= lower <= 0.80
     assert 0.80 <= upper <= 0.90
+
